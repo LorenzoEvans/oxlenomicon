@@ -78,6 +78,7 @@ a {
 .f-r {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .f-rw {
   display: flex;
@@ -112,4 +113,33 @@ div.tile-bg {
   background-color: bisque;
   text-align: left;
   padding: 0;
+  margin: 10px 10px 10px 10px;
+}
+
+.cursor {
+  font-size: 30px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+
+  }
+  50% {
+    color: black;
+    
+  }
+}
+
+.home-style {
+  margin: 10px 10px 10px 10px;
+}
+
+.h-acc {
+  border: 2px solid black;
+}
+
+.border-all {
+  border: 2px solid black ;
 }
