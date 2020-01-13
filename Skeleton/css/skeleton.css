@@ -145,6 +145,10 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   font-family: 'Quantico';
 }
 
+h4.quantico {
+  font-size: 64px;
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
