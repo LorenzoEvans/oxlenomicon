@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Oxlenomicon</title>
+  <title>Livrynomicon</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -25,6 +25,7 @@
   <link href="https://fonts.googleapis.com/css?family=Quantico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+  
 
 
   <!-- Favicon
@@ -36,11 +37,11 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div>
-    <div>
+  <div class="f-c-jc">
+    <div class="bg-washed-red border-all">
       <section class="f-r pa2">
-        <div>
-          <h4 class="quantico">Livrymonicon</h4>
+        <div class="bg-lightest-blue shadow-3">
+          <h4 class="quantico bg-washed-green shadow-3 ba bw2 b--near-white">Livrynomicon</h4>
         </div>
         <h2 class="quantico">
           You're welcome to stay, but you might get lost kiddo. 
@@ -49,19 +50,21 @@
         </h2>
       </section>
     </div>
-    <hr class="ba bw2 b--near-black">
-    <hr>
-    <hr class="bl bw3 b--light-green">
-    <section class="f-r border-all">
-      <ul class="w-33 h-acc" uk-accordion>
+    <section class="f-r-sb">
+      <ul class="w-100 pa2 h-acc" uk-accordion>
         <li>
             <a class="uk-accordion-title" href="#">Purpose</a>
-            <div class="uk-accordion-content">
-              <div class="uk-tile uk-tile-secondary">
+            <div class="uk-accordion-content flex flex-row ba bw1 b--near-black">
+              <div class="uk-tile uk-tile-secondary ba bw4 b--washed-green">
                 The purpose of this site is to explore the DAT protocol, Hashbase, and Beaker ecosystem, while
                 also experimenting with additional combinable decentralized web platforms, tools, and technologies, 
                 to explore the idea of a memex, or eco-cortex (no idea where I heard that, but I don't *think* I came up with it),
                 and to see what lies at the intersection of a web-site, and a living piece of digital art.
+              </div>
+              <div class="uk-tile uk-tile-default ba bw4 b--moon-gray bg-washed-blue near-black">
+                Perhaps, even deeper, the purpose of this site is also to explore, track, and observe my very self, as if I were an external entity, to see what
+                the self gravitates toward consuming and creating, expressing, an odd mirror, if you will, though not the fun-house
+                variety of odd-ness, hopefully.
               </div>
             </div>
         </li>
@@ -69,12 +72,15 @@
             <a class="uk-accordion-title" href="#">Who?</a>
             <div class="uk-accordion-content">
               <div class="uk-tile uk-tile-muted">
-                Call me Oxle. 
+                Call me Livrym. 
                 
-                I'm Livrym, musician, programmer, person, being, soul, phenomena, what have you, adrift in the chaos of now,
-                though I would like to point out that adrift is not necessarily lost- is a leaf on a lake lost? 
-                
-                No, rather, we acknowledge that it is exactly where it needs to be.
+                things I may or may not be associated with :: musician, programmer, person, being, soul, phenomena, what have you...
+                state of the boi :: adrift in the chaos of now,
+                (though I would like to point out that adrift is not necessarily lost- (is a leaf on a lake lost?)) 
+                <div>
+
+                  No, rather, we acknowledge that it is exactly where it needs to be.
+                </div>
               </div>
             </div>
         </li>
@@ -85,12 +91,12 @@
             </div>
         </li>
     </ul>
-    </section>
-    <section class="home-style f-rw">
-      <div class="uk-tile uk-tile-secondary">
-        Alright!
-      </div>
-    </section>
+  </section>
+      <section class="home-style f-rw">
+        <div class="uk-tile uk-tile-secondary">
+          Alright!
+        </div>
+      </section>
   </div>
 
 <!-- End Document
@@ -98,5 +104,6 @@
  <!-- UIkit JS -->
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script> 
+<script src="uikit/dist/js/uikit-icons.min.js"></script>
 </body>
 </html>

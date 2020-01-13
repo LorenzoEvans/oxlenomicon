@@ -80,6 +80,11 @@ a {
   flex-direction: row;
   justify-content: space-between;
 }
+.f-r-sb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .f-rw {
   display: flex;
   flex-direction: row;
@@ -137,9 +142,15 @@ div.tile-bg {
 }
 
 .h-acc {
-  border: 2px solid black;
+  margin: 5px 5px;
 }
 
 .border-all {
   border: 2px solid black ;
+}
+
+.f-c-jc {
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
 }
